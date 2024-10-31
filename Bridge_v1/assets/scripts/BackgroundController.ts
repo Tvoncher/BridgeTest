@@ -2,6 +2,10 @@ import { _decorator, Component, Node, Settings, systemEvent, v3, Vec3 } from 'cc
 import Events from './Enums/Events';
 const { ccclass, property } = _decorator;
 
+/*
+    various bg scale/pos for various aspect ratios and parallax effect
+*/
+
 @ccclass('BackgroundController')
 export class BackgroundController extends Component {
     @property(Node) background: Node = null;

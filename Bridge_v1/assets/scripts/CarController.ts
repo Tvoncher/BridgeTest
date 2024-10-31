@@ -3,6 +3,10 @@ import Events from './Enums/Events';
 
 const {ccclass, property} = _decorator;
 
+/*
+    car controls and movement
+*/
+
 @ccclass('CarController')
 export class CarController extends Component {
     @property(Slider) controlLeverSlider: Slider = null;

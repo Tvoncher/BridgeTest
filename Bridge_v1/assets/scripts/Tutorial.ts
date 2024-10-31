@@ -56,6 +56,7 @@ export class Tutorial extends Component {
 
         this.isShowing = true;
 
+        //TODO: animations
         tween(this.handOpacity).to(0.2,{opacity:255})
             .call(()=>{
                 tween(this.controlLeverHandle).to(0.4,{position:this.highestPos.position})

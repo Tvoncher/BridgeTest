@@ -3,6 +3,10 @@ import Events from './Enums/Events';
 
 const {ccclass, property} = _decorator;
 
+/*
+    smoother movement and adjusting camera.fov to aspect ratio
+*/
+
 @ccclass('CameraController')
 export class CameraController extends Component {
     @property(CCFloat) landscapeFov: number = 50;

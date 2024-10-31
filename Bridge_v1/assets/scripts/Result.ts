@@ -32,6 +32,7 @@ export class Result extends Component {
         this.cross.scale = v3();
         this.retryButton.scale = v3();
 
+        //TODO: use animations
 
         tween(this.CTAButton.getComponent(UIOpacity)).to(0.3,{opacity:0}).start();
 
