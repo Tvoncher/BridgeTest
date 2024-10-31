@@ -32,14 +32,8 @@ export class CarController extends Component {
     protected update(): void {
         if (this.isDead) return;
 
-        const maxHeightOffset = 0.5;
-        this.isGrounded = this.node.position.y < this.initialPosY + maxHeightOffset && this.node.position.y > this.initialPosY - maxHeightOffset;
-
-        if (this.node.position.y < this.dyingDepth) {
-            this.isDead = true;
-            this.destroyCar();
-            systemEvent.emit(Events.FAIL);
-        }
+        this.checkIsGrounded();
+        this.checkFailConditions();
     }
 
     private onSlide() {
@@ -68,5 +62,18 @@ export class CarController extends Component {
             node.addComponent(RigidBody);
             node.addComponent(BoxCollider);
         });
+    }
+
+    private checkFailConditions(){
+        if (this.node.position.y < this.dyingDepth) {
+            this.isDead = true;
+            this.destroyCar();
+            systemEvent.emit(Events.FAIL);
+        }
+    }
+
+    private checkIsGrounded(){
+        const maxHeightOffset = 0.5;
+        this.isGrounded = this.node.position.y < this.initialPosY + maxHeightOffset && this.node.position.y > this.initialPosY - maxHeightOffset;
     }
 }

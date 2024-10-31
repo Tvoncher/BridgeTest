@@ -1,4 +1,4 @@
-import {_decorator, CCFloat, Component, Node, systemEvent, tween, UIOpacity} from 'cc';
+import {_decorator, CCFloat, Component, Node, systemEvent, Tween, tween, UIOpacity} from 'cc';
 import Events from './Enums/Events';
 
 const {ccclass, property} = _decorator;
@@ -77,6 +77,11 @@ export class Tutorial extends Component {
     private hide(){
         this.isShowing = false;
         this.timer = 0;
+
+        Tween.stopAllByTarget(this.handOpacity);
+        Tween.stopAllByTarget(this.controlLeverHandle);
+
+        this.handOpacity.opacity = 0;
     }
 }
 
