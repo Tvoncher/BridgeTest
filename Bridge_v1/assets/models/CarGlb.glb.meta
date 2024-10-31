@@ -1,0 +1,221 @@
+{
+  "ver": "2.3.0",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57",
+  "files": [],
+  "subMetas": {
+    "85741": {
+      "importer": "gltf-mesh",
+      "uuid": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@85741",
+      "displayName": "",
+      "id": "85741",
+      "name": "booster.001.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "65ad2": {
+      "importer": "gltf-mesh",
+      "uuid": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@65ad2",
+      "displayName": "",
+      "id": "65ad2",
+      "name": "wheel_back.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ae517": {
+      "importer": "gltf-mesh",
+      "uuid": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@ae517",
+      "displayName": "",
+      "id": "ae517",
+      "name": "wheel_back.001.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "444de": {
+      "importer": "gltf-mesh",
+      "uuid": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@444de",
+      "displayName": "",
+      "id": "444de",
+      "name": "Box.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a8010": {
+      "importer": "gltf-mesh",
+      "uuid": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@a8010",
+      "displayName": "",
+      "id": "a8010",
+      "name": "Box.001.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "592cf": {
+      "importer": "gltf-mesh",
+      "uuid": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@592cf",
+      "displayName": "",
+      "id": "592cf",
+      "name": "DBlock_Full.001.mesh",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8bccd": {
+      "importer": "gltf-mesh",
+      "uuid": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@8bccd",
+      "displayName": "",
+      "id": "8bccd",
+      "name": "frame_wheel.mesh",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "20fc1": {
+      "importer": "gltf-mesh",
+      "uuid": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@20fc1",
+      "displayName": "",
+      "id": "20fc1",
+      "name": "frame_wheel.001.mesh",
+      "userData": {
+        "gltfIndex": 7
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7a2b6": {
+      "importer": "gltf-mesh",
+      "uuid": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@7a2b6",
+      "displayName": "",
+      "id": "7a2b6",
+      "name": "wheel_front.mesh",
+      "userData": {
+        "gltfIndex": 8
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f7f2b": {
+      "importer": "gltf-mesh",
+      "uuid": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@f7f2b",
+      "displayName": "",
+      "id": "f7f2b",
+      "name": "wheel_front.001.mesh",
+      "userData": {
+        "gltfIndex": 9
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0fc60": {
+      "importer": "gltf-scene",
+      "uuid": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@0fc60",
+      "displayName": "",
+      "id": "0fc60",
+      "name": "CarGlb.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "redirect": "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@0fc60",
+    "assetFinder": {
+      "meshes": [
+        "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@65ad2",
+        "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@ae517",
+        "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@85741",
+        "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@444de",
+        "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@a8010",
+        "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@592cf",
+        "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@8bccd",
+        "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@20fc1",
+        "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@7a2b6",
+        "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@f7f2b"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "8fd93f54-78ac-4c2f-a16d-37f5b41a4f57@0fc60"
+      ]
+    }
+  }
+}

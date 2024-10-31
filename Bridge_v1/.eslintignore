@@ -1,0 +1,8 @@
+build
+library
+local
+node_modules
+temp
+**/*.d.ts
+**/*.tsx
+gulpfile.js
