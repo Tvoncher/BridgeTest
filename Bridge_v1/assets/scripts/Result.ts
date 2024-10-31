@@ -5,6 +5,8 @@ const {ccclass, property} = _decorator;
 
 @ccclass('Result')
 export class Result extends Component {
+    @property(CCFloat) delayBeforePackshot: number = 0.3;
+
     @property(Node) shadow: Node = null;
     @property(Node) cross: Node = null;
     @property(Node) retryButton: Node = null;
@@ -32,6 +34,12 @@ export class Result extends Component {
         this.cross.scale = v3();
         this.retryButton.scale = v3();
 
+        this.scheduleOnce(()=>{
+            this.showPackshot();
+        }, this.delayBeforePackshot)
+    }
+
+    private showPackshot(){
         //TODO: use animations
 
         tween(this.CTAButton.getComponent(UIOpacity)).to(0.3,{opacity:0}).start();
