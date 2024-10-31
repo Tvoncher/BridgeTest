@@ -8,6 +8,7 @@ export class Result extends Component {
     @property(Node) shadow: Node = null;
     @property(Node) cross: Node = null;
     @property(Node) retryButton: Node = null;
+    @property(Node) CTAButton: Node = null;
 
     @property(CCFloat) shadowMaxOpacity: number = 180;
     @property(CCFloat) shadowRevealDuration: number = 0.4;
@@ -30,6 +31,9 @@ export class Result extends Component {
 
         this.cross.scale = v3();
         this.retryButton.scale = v3();
+
+
+        tween(this.CTAButton.getComponent(UIOpacity)).to(0.3,{opacity:0}).start();
 
         tween(this.shadow.getComponent(UIOpacity))
             .to(this.shadowRevealDuration,{opacity:this.shadowMaxOpacity})
