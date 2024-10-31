@@ -1,4 +1,4 @@
-import {_decorator, Camera, CCFloat, Component, Node, Settings, systemEvent, v3, Vec3} from 'cc';
+import {_decorator, Camera, CCFloat, Component, log, Node, Settings, systemEvent, v3, Vec3} from 'cc';
 import Events from './Enums/Events';
 
 const {ccclass, property} = _decorator;
@@ -38,8 +38,6 @@ export class CameraController extends Component {
     }
 
     private onWindowResized(settings: Settings): void {
-        this.camera.fov = settings.IS_LANDSCAPE ? this.landscapeFov : this.portraitFov;
-
         if (settings.IS_LANDSCAPE){
             this.camera.fov = this.landscapeFov;
         } else {
