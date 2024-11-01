@@ -11,6 +11,7 @@ import {
     Vec3,
     View,
     _decorator,
+    game
 } from 'cc';
 
 import Events from './Enums/Events';
@@ -95,6 +96,8 @@ export default class GameManager extends Component {
         // this.enablePhysics3d(math.v3(0, -10, 0), false);
         // this.enablePhysics();
         InputManager.getInstance();
+
+        game.frameRate = 60;
     }
 
     start(): void {

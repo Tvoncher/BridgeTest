@@ -50,12 +50,14 @@ export class BridgeController extends Component {
     }
 
     private onFailTriggerEnter(){
-        const lastNBricks = 5;
+        const lastNBricks = 6;
 
         for (let i =  this.bricksArr.length - lastNBricks; i < this.bricksArr.length; i++) {
             const brick = this.bricksArr[i];
         
-            brick.addComponent(RigidBody);
+            this.scheduleOnce(()=>{
+                brick.addComponent(RigidBody);
+            },i/10)
         }
     }
 }
